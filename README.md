@@ -60,7 +60,7 @@ Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 Go to powershell in the host PC
 
 ```powershell
-Test-Connection 192.168.x.x -Port 3389
+Test-NetConnection 192.168.x.x -Port 3389
 ```
 
 <img width="610" height="178" alt="4  test-connection" src="https://github.com/user-attachments/assets/e4457b95-cc27-4364-8d42-ba3b0ac903f0" />
